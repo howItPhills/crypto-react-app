@@ -1,7 +1,7 @@
 import React from 'react';
+
 import { Avatar, Typography, Menu } from 'antd';
 import { Link } from 'react-router-dom';
-
 
 
 import icon from '../../images/cryptocurrency.png';

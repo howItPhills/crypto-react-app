@@ -29,15 +29,14 @@ a:hover {
 }
 
 .main {
-   flex: 0.8;
    width: 100%;
-   margin-left: 250px;
+   display: flex;
+   flex-direction: column;
 }
 .routes {
    padding: 20px;
 }
 .nav-container {
-   position: fixed;
    left: 0;
    margin: 10px;
    height: 100vh;
@@ -49,7 +48,6 @@ a:hover {
    background-color: #001529;
    display: flex;
    padding: 20px;
-   align-items: center;
    width: 100%;
 }
 .logo {
@@ -75,7 +73,7 @@ a:hover {
    align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
    .main {
       margin-left: 50px;
    }
@@ -91,7 +89,7 @@ a:hover {
    .main {
       margin-left: 100px;
    }
-}
+} */
 
 @media screen and (max-width: 800px) {
    .app {
@@ -374,6 +372,6 @@ a:hover {
    background-color: #001529;
    display: flex;
    flex-direction: column;
-   padding: 20px;
+   padding: 5px;
    align-items: center;
 }

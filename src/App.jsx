@@ -1,6 +1,6 @@
-import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
 
 import './App.css';
@@ -11,9 +11,7 @@ const App = () => {
          <Navbar />
          <div className='main'>
             <Content />
-            <div className='footer'>
-
-            </div>
+            <Footer />
          </div>
       </div>
    )
