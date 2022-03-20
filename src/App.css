@@ -293,9 +293,18 @@ a:hover {
 .news-card {
    min-height: 300px !important;
 }
+
+.news-card-link {
+   display: flex;
+   min-height: 100%;
+   flex-direction: column;
+   align-content: space-between;
+}
+
 .news-image-container {
    display: flex !important;
-   justify-content: space-between !important;
+   gap: 10px;
+   margin-bottom: 5px;
 }
 .news-title {
    width: 70%;
@@ -312,6 +321,9 @@ a:hover {
 .provider-container {
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   gap: 5px;
+   margin-top: 15px;
 }
 .provider-name {
    margin-left: 10px;
