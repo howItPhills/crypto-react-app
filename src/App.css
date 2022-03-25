@@ -177,6 +177,8 @@ a:hover {
    font-weight: 700 !important;
    margin-top: 20px !important;
    color: var(--pink) !important;
+   width: 100%;
+   text-align: center;
 }
 
 .coin-stats {
@@ -344,12 +346,12 @@ a:hover {
    align-items: center !important;
    flex-wrap: wrap !important;
 }
+
+.current-price,
 .price-change {
-   font-weight: 900 !important;
-}
-.current-price {
    margin-top: 0px !important;
-   font-weight: 900 !important;
+   font-weight: 800 !important;
+   color: rgba(0, 0, 0, 0.85) !important;
 }
 .home-heading-container {
    display: flex;
